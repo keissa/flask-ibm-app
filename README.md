@@ -6,8 +6,10 @@ A demo app using Flask and IBM Watson APIs to do sentiment analysis on hotel rev
 
 1. Download hotel reviews dataset from https://www.kaggle.com/datafiniti/hotel-reviews and place 7282_1.csv in data directoy
 2. Install Elasticsearch from https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html
-3. Register for IBM Watson API https://cloud.ibm.com/
-4. Install Python library requirements:
+3. Run bin/elasticsearch
+4. Register for IBM Watson API https://cloud.ibm.com/
+5. Enter API authentication details in code/app.py
+6. Install Python library requirements:
 - pandas
 - numpy
 - json
@@ -16,10 +18,10 @@ A demo app using Flask and IBM Watson APIs to do sentiment analysis on hotel rev
 - ibm-watson
 - elasticsearch-py
 
-5. Run
+7. Run
 `python code/app.py`
 
-6. Go to
+8. Go to
 `http://localhost:5000/`
 
-7. Enter a hotel name and view an "Overview" of review tones or "Detailed" hotel information.
+9. Enter a hotel name and view an "Overview" of review tones or "Detailed" hotel information.
