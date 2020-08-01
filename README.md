@@ -17,7 +17,7 @@ A demo app using Flask and IBM Watson APIs to do sentiment analysis on hotel rev
 - elasticsearch-py
 
 5. Run
-`python app.py`
+`python code/app.py`
 
 6. Go to
 `http://localhost:5000/`
